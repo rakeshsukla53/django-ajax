@@ -111,7 +111,9 @@ Sometimes it’s a real pain to use the login_required decorator all over the vi
     gistfile1.py hosted with ❤ by GitHub
     
     While writing this, I found similar solutions by davyd and a discussion on the django-users list, but neither had the flexibility of using regular expressions.
- 
+
+Once logged in, test out the form. What we have here is a simple communication app with just create rights. It looks nice, but there’s one annoying issue: The page refresh. How do we get rid of it? Or, how do we update just a portion of a webpage without having to refresh the entire page? Enter AJAX. AJAX is a client-side technology used for making asynchronous requests to the server-side – i.e., requesting or submitting data – where the subsequent responses do not cause an entire page refresh.
+
 
 
 
